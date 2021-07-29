@@ -1,0 +1,99 @@
+
+<style>
+.x {
+  background-color: lightgrey;
+  border: 10px solid green;
+}
+.y {
+  background-color: lightyellow;
+  border: 5px solid black;
+}
+.z {
+  background-color: lightpink;
+  border: 5px solid red;
+}
+.tele {
+  background-color: yellow;
+  border: 5px solid red;
+}
+</style>
+<div class="x">
+<div class="ugc-base question-body-text">
+<div class=""><p><strong>The following Snippet Code are known:</strong></p>
+<p><img alt="a = 10; b = 4; C = 6; do { do { a= a -1 ; b = b - 2; } while (a%2 0) if (a &gt;= 10) C = b + 4; else { b = b + 2; a = a - 1; } w" aria-describedby="f7t" src="https://media.cheggcdn.com/media/215/215ecbbe-0803-46aa-990d-03ab0cea990f/phpReiyoE" style="height:291px;width:227px;"/></p>
+<p><strong>Make Machine Code from the above snippet!</strong></p>
+</div></div></div></div></div><h1><p><b>
+<mark>:: Solution ::</mark>
+</b></p></h1><div class="y"><div class="y"><div class="answer-given-body ugc-base">
+<p><strong>Machine Code</strong></p>
+<p>main:</p>
+<p>
+        push    rbp</p>
+<p>
+        mov     rbp,
+rsp</p>
+<p>
+        mov     DWORD
+PTR [rbp-4], 10</p>
+<p>
+        mov     DWORD
+PTR [rbp-8], 4</p>
+<p>
+        mov     DWORD
+PTR [rbp-12], 6</p>
+<p>.L2:</p>
+<p>
+        sub     DWORD
+PTR [rbp-4], 1</p>
+<p>
+        sub     DWORD
+PTR [rbp-8], 2</p>
+<p>
+        mov     eax,
+DWORD PTR [rbp-4]</p>
+<p>
+        and     eax,
+1</p>
+<p>
+        test    eax,
+eax</p>
+<p>
+        je      .L2</p>
+<p>
+        cmp     DWORD
+PTR [rbp-4], 9</p>
+<p>
+        jle     .L3</p>
+<p>
+        mov     eax,
+DWORD PTR [rbp-12]</p>
+<p>
+        add     eax,
+4</p>
+<p>
+        mov     DWORD
+PTR [rbp-8], eax</p>
+<p>
+        jmp     .L4</p>
+<p>.L3:</p>
+<p>
+        add     DWORD
+PTR [rbp-8], 2</p>
+<p>
+        sub     DWORD
+PTR [rbp-4], 1</p>
+<p>.L4:</p>
+<p>
+        cmp     DWORD
+PTR [rbp-8], 9</p>
+<p>
+        jle     .L2</p>
+<p>        nop</p>
+<p>        nop</p>
+<p>
+        pop     rbp</p>
+<p>        ret</p>
+<p><strong>PLEASE RATE WELL !!!!!</strong></p>
+</div></div></div></div><div class="z"><h2><p><b>
+Likes: 1</p><p>Dislikes:  0
+</b></p></h2></div>

@@ -1,0 +1,74 @@
+
+<style>
+.x {
+  background-color: lightgrey;
+  border: 10px solid green;
+}
+.y {
+  background-color: lightyellow;
+  border: 5px solid black;
+}
+.z {
+  background-color: lightpink;
+  border: 5px solid red;
+}
+.tele {
+  background-color: yellow;
+  border: 5px solid red;
+}
+</style>
+<div class="x">
+<div class="ugc-base question-body-text">
+<div class=""><p><strong>The following Snippet Code are known:</strong></p>
+<p><img alt="a = 10; b = 5; c = 6; while (b &lt;= 10) { if (a &lt;= 10) c = b + 4; else { b = b + 2; a = a a - 1; } do { a= a + 1 ; b = b - 2; }" aria-describedby="f7t" src="https://media.cheggcdn.com/media/328/32810cb3-6599-4e18-9c97-f46729ea1498/php6nGfEf" style="height:292px;width:238px;"/></p>
+<p><strong>Make Machine Code from the above snippet!</strong></p>
+</div></div></div></div></div><h1><p><b>
+<mark>:: Solution ::</mark>
+</b></p></h1><div class="y"><div class="y"><div class="answer-given-body ugc-base">
+<p><strong>Solution:-</strong></p>
+<p>_dl_relocate_static_pie:</p>
+<p>endbr64</p>
+<p>retq   </p>
+<p>nopw   %cs:0x0(%rax,%rax,1)</p>
+<p>nop</p>
+<p>square:</p>
+<p>push   %rbp</p>
+<p>mov    %rsp,%rbp</p>
+<p>mov    %edi,-0x14(%rbp)</p>
+<p>movl   $0xa,-0x4(%rbp)</p>
+<p>movl   $0x5,-0x8(%rbp)</p>
+<p>movl   $0x6,-0xc(%rbp)</p>
+<p>jmp    401154 &lt;square+0x52&gt;</p>
+<p>cmpl   $0xa,-0x4(%rbp)</p>
+<p>jg     401131 &lt;square+0x2f&gt;</p>
+<p>mov    -0x8(%rbp),%eax</p>
+<p>add    $0x4,%eax</p>
+<p>mov    %eax,-0xc(%rbp)</p>
+<p>jmp    401139 &lt;square+0x37&gt;</p>
+<p>addl   $0xc,-0x8(%rbp)</p>
+<p>subl   $0x1,-0x4(%rbp)</p>
+<p>addl   $0x1,-0x4(%rbp)</p>
+<p>subl   $0x2,-0x8(%rbp)</p>
+<p>mov    -0x4(%rbp),%eax</p>
+<p>cltd   </p>
+<p>shr    $0x1f,%edx</p>
+<p>add    %edx,%eax</p>
+<p>and    $0x1,%eax</p>
+<p>sub    %edx,%eax</p>
+<p>cmp    $0x1,%eax</p>
+<p>je     401139 &lt;square+0x37&gt;</p>
+<p>cmpl   $0xa,-0x8(%rbp)</p>
+<p>jle    401120 &lt;square+0x1e&gt;</p>
+<p>nop</p>
+<p>pop    %rbp</p>
+<p>retq   </p>
+<p>main:</p>
+<p>push   %rbp</p>
+<p>mov    %rsp,%rbp</p>
+<p>mov    $0x0,%eax</p>
+<p>pop    %rbp</p>
+<p>retq   </p>
+<p>nopl   0x0(%rax,%rax,1)</p>
+</div></div></div></div><div class="z"><h2><p><b>
+Likes: 1</p><p>Dislikes:  0
+</b></p></h2></div>
